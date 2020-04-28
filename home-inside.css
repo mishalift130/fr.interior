@@ -1,0 +1,191 @@
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+}
+
+* {
+  box-sizing: border-box;
+}
+.homiebg {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/2271683/pexels-photo-2271683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  position: relative;
+  padding:5px;
+}
+
+
+.mypic {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/619636/pexels-photo-619636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  position: relative;
+  padding:5px;
+}
+.logo{
+background:black;
+color:white;
+position:absolute;
+text-align:center;
+transform:translate(-50%,-50%);
+top:5%;
+left:50%;
+font-family: 'Luckiest Guy';
+font-size:3vw;
+padding:8px;
+}
+.logo:hover{
+background:white;
+color:black;
+}
+/* Add styles to the form container */
+.ttl {
+max-width:150px;
+    cursor: pointer;
+    float: left;
+	width:20%;
+    padding:1px;
+    
+    color:rgb(209, 94, 94);
+    background:black;
+    list-style:none;
+}
+.ttl:hover{
+background:tomato;
+color:black;
+}
+.frmbg {
+  /*position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;*/
+ 
+  background: rgb(26, 0, 0, 0.9);
+  margin: 5px;
+	text-align:center;
+    padding: 16px;
+    max-width: 400px;
+    color:#f3bf15;
+    border:1px solid  #000099;
+   margin-top: 150px;
+}
+#from{
+
+width:100%;
+background:black;
+color:white;
+padding: 12px 20px;
+margin: 8px ;
+border:1px solid orange;
+box-sizing: border-box;
+display: inline-block;
+
+}
+.logbtn{
+background:lightgreen;
+border:1px solid Darkblue;
+padding: 14px 20px;
+margin: 8px 0;
+
+width:100%;
+}
+.logbtn:hover{
+background:#ffa64d;
+}
+.signin{
+display:none;
+}
+.fullfrom{
+display:none;
+}
+.smt{
+  
+padding:5px;
+margin:auto;
+color:rgb(241, 245, 29);
+width:100%;
+margin-top:20%;
+  background: rgb(0, 0, 102, 0.9);
+ font-size:2vw;
+margin:auto;
+margin-top:20%;
+}
+@media screen and (max-width: 400px) {
+  
+  .frmbg {
+  background: rgb(0, 0, 102, 0.9);
+ color:#ff9900;
+    border:1px solid  #00ffff;
+ margin: 5px;
+	text-align:center;
+    padding: 10px;
+    margin-top: 70px;
+    max-width: 400px;
+    align-content: center;
+   font-size:4vw; 
+}
+  
+  #from{
+  font-size:3vw;
+ color:white;
+width:100%;
+background:black;
+padding: 12px 20px;
+margin: 5px ;
+border:1px solid orange;
+box-sizing: border-box;
+display: inline-block;
+}
+.signin{
+display:none;
+}
+.logo{
+background:black;
+color:white;
+position:absolute;
+text-align:center;
+left:50%;
+font-size:3vw;
+padding:5px;
+
+}
+/* Add styles to the form container */
+.ttl {
+float:right;
+max-width:150px;
+    cursor: pointer;
+    text-align:center;
+	width:20%;
+    padding:0;
+    margin:0;
+    font-size : 3vw;
+    color:white;
+    background:black;
+    list-style:none;
+}
+.smt {
+  
+    margin:auto;
+    margin-top:20%;
+  }
+}
+
+.clearpar::after {
+  display: block;
+  clear: both;
+  content: "";
+}

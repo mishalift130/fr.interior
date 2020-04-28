@@ -1,0 +1,111 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  }
+  
+  .bg-img01 {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/594452/pexels-photo-594452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .con{
+  color:black;
+  }
+  #form, select, textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    resize: vertical;
+    background:black;
+    color:white;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  #butn {
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    float: right;
+     font-family: serif;
+  }
+  
+  #butn:hover {
+    background-color:tomato;
+    color:black;
+  }
+  
+  .container12 {
+    border-radius: 0;
+    background-color: transparent;
+    padding: 20px;
+    color:white;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    color:black;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #footer {
+  background:white;
+  
+  border:2px solid black;
+  }
+  .tpgo{
+    padding: 5px;
+    margin:5px;
+    text-align: center;
+    width:20%;
+    background:rgb(236, 152, 25);
+    color:white;
+  }
+  .tpgo:hover{
+    background: white;
+    color:black;
+  }
+  #footer:hover{
+  background:black;
+  border:2px solid darkblue;
+  color:orange;
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, #butn {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
